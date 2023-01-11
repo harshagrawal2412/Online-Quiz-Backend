@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T14:28:21.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.4" etag="Tu7pyIep4nlgXcUVhSVI" type="github"><diagram id="xmAiqA_HwDzgMXLA5IqL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-11T14:31:13.670Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.4" etag="p5ydBZjHt3TiT-pqPMsd" type="github">
+  <diagram id="BVS58XqL6I-aOLOrJSCa" name="Page-1">
+    <mxGraphModel dx="1221" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6RHDZmM5bEF5KoNsVTyd-1" value="userID" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6RHDZmM5bEF5KoNsVTyd-2" target="6RHDZmM5bEF5KoNsVTyd-5">
+          <mxGeometry x="-0.3529" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6RHDZmM5bEF5KoNsVTyd-2" value="&lt;b&gt;&lt;u&gt;User&lt;/u&gt;:&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;name&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;email&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;password&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;role:{&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; admin,&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; user&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="125" y="720" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="6RHDZmM5bEF5KoNsVTyd-3" value="quizID" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6RHDZmM5bEF5KoNsVTyd-4" target="6RHDZmM5bEF5KoNsVTyd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6RHDZmM5bEF5KoNsVTyd-4" value="&lt;b&gt;&lt;u&gt;Quiz&lt;/u&gt;:&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;name&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;description&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;questions[{&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; questionID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;}]&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;difficulty&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;role:{&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; admin,&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; user&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;fun checkAnswer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="105" y="430" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="6RHDZmM5bEF5KoNsVTyd-5" value="&lt;b&gt;&lt;u&gt;Participate&lt;/u&gt;:&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;userID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;quizID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;answers[{&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; questionID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; answer&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;}]&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;score&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;date&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="520" y="460" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="6RHDZmM5bEF5KoNsVTyd-6" value="questionID" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6RHDZmM5bEF5KoNsVTyd-8" target="6RHDZmM5bEF5KoNsVTyd-5">
+          <mxGeometry x="-0.3818" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6RHDZmM5bEF5KoNsVTyd-7" value="questionID" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6RHDZmM5bEF5KoNsVTyd-8" target="6RHDZmM5bEF5KoNsVTyd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6RHDZmM5bEF5KoNsVTyd-8" value="&lt;b&gt;&lt;u&gt;Question&lt;/u&gt;:&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;content&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;options[]&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;answer{&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; answerID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="130" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6RHDZmM5bEF5KoNsVTyd-9" value="answerID" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6RHDZmM5bEF5KoNsVTyd-10" target="6RHDZmM5bEF5KoNsVTyd-8">
+          <mxGeometry x="-0.2676" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6RHDZmM5bEF5KoNsVTyd-10" value="&lt;b&gt;&lt;u&gt;Answer&lt;/u&gt;:&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;content&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="100" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
